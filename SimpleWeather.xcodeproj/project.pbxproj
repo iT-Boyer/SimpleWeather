@@ -51,7 +51,6 @@
 		868735DF1831A1E700C0CCFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868735C71831A1E700C0CCFA /* UIKit.framework */; };
 		868735E71831A1E700C0CCFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 868735E51831A1E700C0CCFA /* InfoPlist.strings */; };
 		868735E91831A1E700C0CCFA /* SimpleWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 868735E81831A1E700C0CCFA /* SimpleWeatherTests.m */; };
-		9BEBF13947AEC8A04443AC30 /* Pods_SimpleWeatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE326B237768DC45932CC8C /* Pods_SimpleWeatherTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,9 +65,8 @@
 
 /* Begin PBXFileReference section */
 		6A86F4A12D031621D2EF5104 /* Pods_SimpleWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D8932423586A7F6007B4FA2 /* Pods-SimpleWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleWeather.debug.xcconfig"; path = "Target Support Files/Pods-SimpleWeather/Pods-SimpleWeather.debug.xcconfig"; sourceTree = "<group>"; };
-		725F6719EAA9982DDEB8DDAF /* Pods-SimpleWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleWeather.release.xcconfig"; path = "Target Support Files/Pods-SimpleWeather/Pods-SimpleWeather.release.xcconfig"; sourceTree = "<group>"; };
-		7648F922DC172BF42EF594B9 /* Pods-SimpleWeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleWeatherTests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleWeatherTests/Pods-SimpleWeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D8932423586A7F6007B4FA2 /* Pods-SimpleWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleWeather.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-SimpleWeather/Pods-SimpleWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		725F6719EAA9982DDEB8DDAF /* Pods-SimpleWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleWeather.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-SimpleWeather/Pods-SimpleWeather.release.xcconfig"; sourceTree = "<group>"; };
 		867A4FA41831B19B003F9195 /* WXController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXController.h; sourceTree = "<group>"; };
 		867A4FA51831B19B003F9195 /* WXController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXController.m; sourceTree = "<group>"; };
 		867A4FA81831C733003F9195 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
@@ -113,16 +111,14 @@
 		868735CD1831A1E700C0CCFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		868735CF1831A1E700C0CCFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		868735D11831A1E700C0CCFA /* SimpleWeather-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleWeather-Prefix.pch"; sourceTree = "<group>"; };
-		868735D21831A1E700C0CCFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SimpleWeather/AppDelegate.h; sourceTree = "<group>"; };
-		868735D31831A1E700C0CCFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SimpleWeather/AppDelegate.m; sourceTree = "<group>"; };
+		868735D21831A1E700C0CCFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		868735D31831A1E700C0CCFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		868735D51831A1E700C0CCFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		868735DB1831A1E700C0CCFA /* SimpleWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		868735DC1831A1E700C0CCFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		868735E41831A1E700C0CCFA /* SimpleWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleWeatherTests-Info.plist"; sourceTree = "<group>"; };
 		868735E61831A1E700C0CCFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		868735E81831A1E700C0CCFA /* SimpleWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleWeatherTests.m; sourceTree = "<group>"; };
-		AFE326B237768DC45932CC8C /* Pods_SimpleWeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleWeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7A3AD34A09CC46761B49E50 /* Pods-SimpleWeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleWeatherTests.release.xcconfig"; path = "Target Support Files/Pods-SimpleWeatherTests/Pods-SimpleWeatherTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +140,6 @@
 				868735DD1831A1E700C0CCFA /* XCTest.framework in Frameworks */,
 				868735DF1831A1E700C0CCFA /* UIKit.framework in Frameworks */,
 				868735DE1831A1E700C0CCFA /* Foundation.framework in Frameworks */,
-				9BEBF13947AEC8A04443AC30 /* Pods_SimpleWeatherTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,10 +151,7 @@
 			children = (
 				6D8932423586A7F6007B4FA2 /* Pods-SimpleWeather.debug.xcconfig */,
 				725F6719EAA9982DDEB8DDAF /* Pods-SimpleWeather.release.xcconfig */,
-				7648F922DC172BF42EF594B9 /* Pods-SimpleWeatherTests.debug.xcconfig */,
-				D7A3AD34A09CC46761B49E50 /* Pods-SimpleWeatherTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,18 +199,7 @@
 		868735B71831A1E700C0CCFA = {
 			isa = PBXGroup;
 			children = (
-				867A4FE91831DF0B003F9195 /* WXCondition.h */,
-				867A4FEA1831DF0B003F9195 /* WXCondition.m */,
-				867A4FA41831B19B003F9195 /* WXController.h */,
-				867A4FA51831B19B003F9195 /* WXController.m */,
-				867A4FE01831DE8C003F9195 /* WXManager.h */,
-				867A4FE11831DE8C003F9195 /* WXManager.m */,
-				867A4FE31831DE99003F9195 /* WXDailyForecast.h */,
-				867A4FE41831DE99003F9195 /* WXDailyForecast.m */,
-				867A4FE61831DEA4003F9195 /* WXClient.h */,
-				867A4FE71831DEA4003F9195 /* WXClient.m */,
-				868735D21831A1E700C0CCFA /* AppDelegate.h */,
-				868735D31831A1E700C0CCFA /* AppDelegate.m */,
+				F9787AB42551057A00B75702 /* Classes */,
 				867A4FA71831C733003F9195 /* Images */,
 				868735C91831A1E700C0CCFA /* SimpleWeather */,
 				868735E21831A1E700C0CCFA /* SimpleWeatherTests */,
@@ -245,7 +226,6 @@
 				868735C71831A1E700C0CCFA /* UIKit.framework */,
 				868735DC1831A1E700C0CCFA /* XCTest.framework */,
 				6A86F4A12D031621D2EF5104 /* Pods_SimpleWeather.framework */,
-				AFE326B237768DC45932CC8C /* Pods_SimpleWeatherTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -288,6 +268,162 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F9787AB42551057A00B75702 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F9787AC02551057A00B75702 /* Application */,
+				F9787AB52551057A00B75702 /* Foundation */,
+				F9787ABB2551057A00B75702 /* Public */,
+			);
+			name = Classes;
+			path = SimpleWeather/Classes;
+			sourceTree = "<group>";
+		};
+		F9787AB52551057A00B75702 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F9787AB62551057A00B75702 /* Config */,
+				F9787ABA2551057A00B75702 /* Main */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		F9787AB62551057A00B75702 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F9787AB72551057A00B75702 /* RouteURL */,
+				F9787AB82551057A00B75702 /* RequestAPI */,
+				F9787AB92551057A00B75702 /* ConstKey */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		F9787AB72551057A00B75702 /* RouteURL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RouteURL;
+			sourceTree = "<group>";
+		};
+		F9787AB82551057A00B75702 /* RequestAPI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestAPI;
+			sourceTree = "<group>";
+		};
+		F9787AB92551057A00B75702 /* ConstKey */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ConstKey;
+			sourceTree = "<group>";
+		};
+		F9787ABA2551057A00B75702 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				868735D21831A1E700C0CCFA /* AppDelegate.h */,
+				868735D31831A1E700C0CCFA /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F9787ABB2551057A00B75702 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F9787ABC2551057A00B75702 /* Category */,
+				F9787ABD2551057A00B75702 /* Cus */,
+				F9787ABE2551057A00B75702 /* PluginExtension */,
+				F9787ABF2551057A00B75702 /* Lib */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		F9787ABC2551057A00B75702 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F9787ABD2551057A00B75702 /* Cus */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cus;
+			sourceTree = "<group>";
+		};
+		F9787ABE2551057A00B75702 /* PluginExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PluginExtension;
+			sourceTree = "<group>";
+		};
+		F9787ABF2551057A00B75702 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		F9787AC02551057A00B75702 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F9787AC12551057A00B75702 /* ABSLayer */,
+				F9787AC22551057A00B75702 /* Components */,
+				F9787AC32551057A00B75702 /* UIControls */,
+				F9787AC42551057A00B75702 /* Services */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F9787AC12551057A00B75702 /* ABSLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ABSLayer;
+			sourceTree = "<group>";
+		};
+		F9787AC22551057A00B75702 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F9787AC5255105C600B75702 /* weather */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F9787AC32551057A00B75702 /* UIControls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIControls;
+			sourceTree = "<group>";
+		};
+		F9787AC42551057A00B75702 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				867A4FE31831DE99003F9195 /* WXDailyForecast.h */,
+				867A4FE41831DE99003F9195 /* WXDailyForecast.m */,
+				867A4FE01831DE8C003F9195 /* WXManager.h */,
+				867A4FE11831DE8C003F9195 /* WXManager.m */,
+				867A4FE91831DF0B003F9195 /* WXCondition.h */,
+				867A4FEA1831DF0B003F9195 /* WXCondition.m */,
+				867A4FE61831DEA4003F9195 /* WXClient.h */,
+				867A4FE71831DEA4003F9195 /* WXClient.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F9787AC5255105C600B75702 /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				867A4FA41831B19B003F9195 /* WXController.h */,
+				867A4FA51831B19B003F9195 /* WXController.m */,
+			);
+			path = weather;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -314,7 +450,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 868735EF1831A1E700C0CCFA /* Build configuration list for PBXNativeTarget "SimpleWeatherTests" */;
 			buildPhases = (
-				2D369CDDE33DD70E89E13E53 /* [CP] Check Pods Manifest.lock */,
 				868735D71831A1E700C0CCFA /* Sources */,
 				868735D81831A1E700C0CCFA /* Frameworks */,
 				868735D91831A1E700C0CCFA /* Resources */,
@@ -348,6 +483,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 868735B71831A1E700C0CCFA;
@@ -408,28 +544,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D369CDDE33DD70E89E13E53 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SimpleWeatherTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		966068CB7608D60DB7DC1A20 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -437,16 +551,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SimpleWeather/Pods-SimpleWeather-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa-iOS7.0/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
 				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/TSMessages/TSMessages.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSMessages.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -633,7 +747,6 @@
 		};
 		868735F01831A1E700C0CCFA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7648F922DC172BF42EF594B9 /* Pods-SimpleWeatherTests.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleWeather.app/SimpleWeather";
@@ -657,7 +770,6 @@
 		};
 		868735F11831A1E700C0CCFA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7A3AD34A09CC46761B49E50 /* Pods-SimpleWeatherTests.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleWeather.app/SimpleWeather";
