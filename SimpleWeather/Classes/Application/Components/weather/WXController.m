@@ -7,7 +7,7 @@
 //
 
 #import "WXController.h"
-#import <LBBlurredImage/UIImageView+LBBlurredImage.h>
+#import "UIImageView+LBBlurredImage.h"
 
 @interface WXController ()
 

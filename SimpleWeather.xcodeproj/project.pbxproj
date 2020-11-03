@@ -51,6 +51,8 @@
 		868735DF1831A1E700C0CCFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868735C71831A1E700C0CCFA /* UIKit.framework */; };
 		868735E71831A1E700C0CCFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 868735E51831A1E700C0CCFA /* InfoPlist.strings */; };
 		868735E91831A1E700C0CCFA /* SimpleWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 868735E81831A1E700C0CCFA /* SimpleWeatherTests.m */; };
+		F9787CF02551275700B75702 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F9787CEF2551275700B75702 /* UIImageView+LBBlurredImage.m */; };
+		F9787CF42551279F00B75702 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9787CF32551279F00B75702 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +121,9 @@
 		868735E41831A1E700C0CCFA /* SimpleWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleWeatherTests-Info.plist"; sourceTree = "<group>"; };
 		868735E61831A1E700C0CCFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		868735E81831A1E700C0CCFA /* SimpleWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleWeatherTests.m; sourceTree = "<group>"; };
+		F9787CEE2551275700B75702 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		F9787CEF2551275700B75702 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		F9787CF32551279F00B75702 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +240,7 @@
 			children = (
 				868735D51831A1E700C0CCFA /* Images.xcassets */,
 				868735CA1831A1E700C0CCFA /* Supporting Files */,
+				F9787CF32551279F00B75702 /* Launch Screen.storyboard */,
 			);
 			path = SimpleWeather;
 			sourceTree = "<group>";
@@ -363,6 +369,7 @@
 		F9787ABF2551057A00B75702 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				F9787CED2551274A00B75702 /* LBBlurredImage */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -422,6 +429,15 @@
 				867A4FA51831B19B003F9195 /* WXController.m */,
 			);
 			path = weather;
+			sourceTree = "<group>";
+		};
+		F9787CED2551274A00B75702 /* LBBlurredImage */ = {
+			isa = PBXGroup;
+			children = (
+				F9787CEE2551275700B75702 /* UIImageView+LBBlurredImage.h */,
+				F9787CEF2551275700B75702 /* UIImageView+LBBlurredImage.m */,
+			);
+			path = LBBlurredImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -527,6 +543,7 @@
 				867A4FC61831C733003F9195 /* weather-broken@2x.png in Resources */,
 				868735D61831A1E700C0CCFA /* Images.xcassets in Resources */,
 				867A4FD51831C733003F9195 /* weather-scattered.png in Resources */,
+				F9787CF42551279F00B75702 /* Launch Screen.storyboard in Resources */,
 				867A4FC81831C733003F9195 /* weather-clear@2x.png in Resources */,
 				867A4FC31831C733003F9195 /* bg.png in Resources */,
 				867A4FC41831C733003F9195 /* bg@2x.png in Resources */,
@@ -604,6 +621,7 @@
 				868735D01831A1E700C0CCFA /* main.m in Sources */,
 				867A4FA61831B19B003F9195 /* WXController.m in Sources */,
 				867A4FEB1831DF0C003F9195 /* WXCondition.m in Sources */,
+				F9787CF02551275700B75702 /* UIImageView+LBBlurredImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,6 +744,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleWeather/SimpleWeather-Prefix.pch";
 				INFOPLIST_FILE = "SimpleWeather/SimpleWeather-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -740,6 +759,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleWeather/SimpleWeather-Prefix.pch";
 				INFOPLIST_FILE = "SimpleWeather/SimpleWeather-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
