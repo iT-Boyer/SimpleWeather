@@ -592,7 +592,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SimpleWeather/Pods-SimpleWeather-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa-iOS7.0/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa-iOS12.0/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
 				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
 				"${BUILT_PRODUCTS_DIR}/TSMessages/TSMessages.framework",
